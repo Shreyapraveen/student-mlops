@@ -160,12 +160,12 @@ https://student-mlops-docker.onrender.com/docs
 ## 📸 Screenshots
 
 ### 🔬 MLflow Experiment Tracking
-![MLflow Runs](outputs/mlflow-runs.png)
+![MLflow Runs](outputs/mlflow-runs.jpeg)
 
 ---
 
 ### 📊 Model Performance (Feature Importance)
-![Feature Importance](outputs/feature-imp.png)
+![Feature Importance](outputs/feature-imp.jpeg)
 
 ---
 
