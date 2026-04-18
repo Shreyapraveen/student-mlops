@@ -157,7 +157,36 @@ https://student-mlops-docker.onrender.com/health
 ```text
 https://student-mlops-docker.onrender.com/docs
 ```
+## 📸 Screenshots
 
+### 🔬 MLflow Experiment Tracking
+![MLflow Runs](outputs/mlflow-runs.png)
+
+---
+
+### 📊 Model Performance (Feature Importance)
+![Feature Importance](outputs/feature-imp.png)
+
+---
+
+### ⚙️ CI/CD Pipeline (GitHub Actions)
+![CI/CD Pipeline](outputs/ci-cd.png)
+
+---
+
+
+### 🌐 Deployment – Live Service
+![Render Live](outputs/render-log.png)
+
+---
+
+### ❤️ API Health Check
+![Health Endpoint](outputs/deployment-health.png)
+
+---
+
+### 🤖 Prediction Endpoint
+![Predict Endpoint](outputs/deployment-predict.png)
 - This `README.md` documents:
   - Project objective and dataset.
   - How to run the project locally.
