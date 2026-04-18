@@ -186,7 +186,7 @@ https://student-mlops-docker.onrender.com/docs
 ---
 
 ### 🤖 Prediction Endpoint
-![Predict Endpoint](outputs/deployment-predict.jpeg)
+![Predict Endpoint](outputs/deplyoment-predict.jpeg)
 - This `README.md` documents:
   - Project objective and dataset.
   - How to run the project locally.
