@@ -40,13 +40,14 @@ jobs:
         df.to_csv("data/student-mat.csv", sep=";", index=False)
         EOF
 
-    - name: Run tests
-      run: pytest -v
 
     - name: Train model with MLflow logging
       env:
         MLFLOW_TRACKING_URI: ./mlruns
       run: python src/models/train.py
+
+    - name: Run tests
+      run: pytest -v
 
     - name: Build Docker image
       run: docker build -t student-api:ci .
