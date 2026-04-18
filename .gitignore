@@ -9,7 +9,7 @@ venv/
 # Data & models
 data/*.csv
 !data/student-mat.csv
-models/*.joblib
+#models/*.joblib
 mlruns/
 
 # pytest
