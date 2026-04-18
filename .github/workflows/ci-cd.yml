@@ -27,8 +27,8 @@ jobs:
     - name: Download dataset
       run: |
         mkdir -p data
-        wget https://raw.githubusercontent.com/selva86/datasets/master/student-mat.csv -O data/student-mat.csv
-        
+        wget https://raw.githubusercontent.com/danielcorredera/student-performance/master/student-mat.csv -O data/student-mat.csv
+
     - name: Run tests
       run: pytest -v
 
