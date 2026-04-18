@@ -170,23 +170,23 @@ https://student-mlops-docker.onrender.com/docs
 ---
 
 ### ⚙️ CI/CD Pipeline (GitHub Actions)
-![CI/CD Pipeline](outputs/ci-cd.png)
+![CI/CD Pipeline](outputs/ci-cd.jpeg)
 
 ---
 
 
 ### 🌐 Deployment – Live Service
-![Render Live](outputs/render-log.png)
+![Render Live](outputs/render-log.jpeg)
 
 ---
 
 ### ❤️ API Health Check
-![Health Endpoint](outputs/deployment-health.png)
+![Health Endpoint](outputs/deployment-health.jpeg)
 
 ---
 
 ### 🤖 Prediction Endpoint
-![Predict Endpoint](outputs/deployment-predict.png)
+![Predict Endpoint](outputs/deployment-predict.jpeg)
 - This `README.md` documents:
   - Project objective and dataset.
   - How to run the project locally.
