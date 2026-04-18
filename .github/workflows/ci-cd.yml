@@ -24,10 +24,21 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Download dataset
+
+    - name: Download dataset using ucimlrepo
       run: |
+        python -m pip install ucimlrepo
         mkdir -p data
-        wget https://raw.githubusercontent.com/danielcorredera/student-performance/master/student-mat.csv -O data/student-mat.csv
+        python - << "EOF"
+        from ucimlrepo import fetch_ucirepo
+        import pandas as pd
+
+        # Fetch UCI Student Performance dataset by ID 320 [web:86][web:114]
+        student = fetch_ucirepo(id=320)
+        df = pd.concat([student.data.features, student.data.targets], axis=1)
+        # Save in the same semicolon-separated format expected by your code
+        df.to_csv("data/student-mat.csv", sep=";", index=False)
+        EOF
 
     - name: Run tests
       run: pytest -v
