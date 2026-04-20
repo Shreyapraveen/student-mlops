@@ -196,4 +196,4 @@ https://student-mlops-docker.onrender.com/docs
 
 ## High-level Architecture
 
-The project follows an end-to-end MLOps and DevOps workflow. The data is processed and used to train a regression model, whose experiments are tracked using MLflow. The best model is serialized as `model.joblib` and loaded inside a FastAPI application that exposes `/health` and `/predict` endpoints. The application is containerized with Docker, tested and built in a GitHub Actions CI/CD pipeline, and deployed as a Docker-based web service on Render, where the public URL can be used to obtain predictions in real time. [web:155][web:160][web:171]
+The project follows an end-to-end MLOps and DevOps workflow. The data is processed and used to train a regression model, whose experiments are tracked using MLflow. The best model is serialized as `model.joblib` and loaded inside a FastAPI application that exposes `/health` and `/predict` endpoints. The application is containerized with Docker, tested and built in a GitHub Actions CI/CD pipeline, and deployed as a Docker-based web service on Render, where the public URL can be used to obtain predictions in real time.
